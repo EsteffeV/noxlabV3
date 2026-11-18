@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Site root. French is the default: _redirects sends "/" to /fr/ on the server.
+       This page is the fallback (local preview, or if the server rule is not applied):
+       it sends the visitor to the French home page, or to the English one if they chose English before. -->
+  <title>Nox Science</title>
+  <link rel="canonical" href="https://www.noxscience.com/fr/">
+  <meta name="robots" content="noindex">
+  <meta property="og:title" content="Nox Science">
+  <meta property="og:url" content="https://www.noxscience.com/fr/">
+  <meta property="og:image" content="https://www.noxscience.com/assets/og/nox-fr.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function () {
+      var lang = null;
+      try { lang = localStorage.getItem('nox-lang'); } catch (e) {}
+      location.replace(lang === 'en' ? 'en/index.html' : 'fr/index.html');
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0; url=fr/index.html">
+  <link rel="icon" href="assets/favicon-nox.png" type="image/png" sizes="64x64">
+  <style>body{margin:0;background:#0c0f0d;color:#f3f5f0;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}a{color:#d6f46a}</style>
+</head>
+<body>
+  <p><a href="fr/index.html">Nox Science — accueil</a> · <a href="en/index.html" lang="en">English</a></p>
+</body>
+</html>

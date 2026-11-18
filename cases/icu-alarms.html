@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>When several alarms go off, is the most urgent one still the most visible? — Case study — Nox Science</title>
+  <meta name="description" content="Ergonomic audit and visual attention modelling of an intensive care central monitoring station: with five alarms on screen, the most urgent is the least visible. Finding, redesign and before/after comparison.">
+
+  <meta property="og:title" content="When several alarms go off, is the most urgent one still the most visible? — Case study — Nox Science">
+  <meta property="og:description" content="Ergonomic audit and visual attention modelling of an intensive care central monitoring station: with five alarms on screen, the most urgent is the least visible. Finding, redesign and before/after comparison.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://www.noxscience.com/cases/icu-alarms">
+  <meta property="og:site_name" content="Nox Science">
+  <meta property="og:image" content="https://www.noxscience.com/assets/og/icu-alarms-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Two attention maps of an intensive-care monitoring screen with five alarms, before and after our redesign. The life-threatening alarm is framed.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.noxscience.com/cases/icu-alarms">
+
+  <link rel="icon" href="../assets/favicon-nox.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="alternate" hreflang="en" href="icu-alarms.html">
+  <link rel="alternate" hreflang="fr" href="../fr/cas/alarmes-soins-intensifs.html">
+
+  <link rel="preload" href="../assets/fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/case-alarm.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="../en/index.html" aria-label="Nox Science — home">
+        <img class="logo__img" src="../assets/logo-nox.png" alt="" width="870" height="340">
+        <span class="logo__lab" aria-hidden="true">Science</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path class="nav-toggle__bars" d="M3 6h14M3 14h14"/><path class="nav-toggle__close" d="M4.5 4.5l11 11M15.5 4.5l-11 11"/></svg>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="../en/index.html#solutions">Offers</a>
+          <a href="../en/index.html#how">Our approach</a>
+          <a href="../en/index.html#cases">Case studies</a>
+          <a href="../en/index.html#team">Team</a>
+        </div>
+        <a class="lang-switch" href="../fr/cas/alarmes-soins-intensifs.html" hreflang="fr" lang="fr" aria-label="Voir le site en français">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+          <span>FR</span>
+        </a>
+        <a class="btn btn--primary btn--sm" href="../en/index.html#contact">Tell us about your project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="page-hero page-hero--split">
+      <div class="container">
+        <a class="breadcrumb" href="../en/index.html#cases">← Case studies</a>
+        <p class="eyebrow">Case study · Interface ergonomics</p>
+        <h1 class="h-display case-title">When several alarms go off, is the most urgent one still the most visible?</h1>
+        <p class="lead">When an operator overlooks an alarm, we call it human error. In human factors, we call it a design error: the person did not fail, the system was designed without regard for human limits.</p>
+        <ul class="tags" aria-label="Keywords">
+          <li>Cognitive ergonomics</li><li>Visual attention modelling</li><li>IEC 62366-1</li><li>IEC 60073</li>
+        </ul>
+        <p class="byline">Study conducted by <a href="../en/index.html#team">Esteffe Violet</a></p>
+        <p class="published">Published 16 November 2026</p>
+        <p class="report-note">Full report available <a href="../en/index.html#contact">on request</a></p>
+
+        <figure class="figure reveal" data-reveal>
+          <p class="reveal__q"><strong>Try it.</strong> Five alarms are active on this patient monitoring screen. Only one signals an urgent, life-threatening danger. Where do your eyes go?</p>
+          <div class="reveal__stage">
+            <img src="../assets/cases/alarm-original-5.png" alt="Screen of a central station monitoring eight patients, with five alarm banners in the same format: one red, two yellow, two cyan." width="1600" height="860">
+            <img class="reveal__heat" src="../assets/cases/alarm-heat-original-5.jpg" alt="The same screen under a heat map: the hottest areas are the yellow and cyan banners, the red banner barely registers." width="1600" height="860">
+            <span class="pin pin--vital" style="left:49.6%;top:30.9%"><b>5<sup>th</sup></b><i>Life-threatening</i></span>
+            <span class="pin" style="left:99.4%;top:78.4%"><b>1<sup>st</sup></b></span>
+            <span class="pin" style="left:99.4%;top:54.7%"><b>2<sup>nd</sup></b></span>
+            <span class="pin" style="left:49.6%;top:7.2%"><b>3<sup>rd</sup></b></span>
+            <span class="pin" style="left:99.4%;top:7.2%"><b>4<sup>th</sup></b></span>
+          </div>
+          <div class="reveal__bar">
+            <button type="button" class="btn btn--primary" data-reveal-btn data-on="Back to the screen" data-off="See where the eye lands">See where the eye lands</button>
+            <p class="reveal__a">The life-threatening alarm, in red, comes <strong>last</strong>. In this example, a technical alert draws the eye more than the life-threatening alarm.</p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <article class="section section--alt">
+      <div class="container case-layout">
+        <div class="prose prose--case">
+          <section class="prose-block" id="context">
+            <p class="kicker">Context</p>
+            <h2>Hospitals, where alarms are everywhere</h2>
+            <p>According to a review of 72 publications, 80 to 99% of the alarms raised by medical devices in hospitals are false or clinically insignificant <a class="cite" href="#ref-1">[1]</a>. Over time, staff get used to them and the risk of ignoring one grows: this is known as alarm fatigue.</p>
+            <p>The usual response is to reduce the <strong>number</strong> of alarms. We looked at something a manufacturer controls directly: their <strong>visibility</strong>. When several alarms are displayed at once, is the most serious one still the most visible to the operator?</p>
+          </section>
+
+          <section class="prose-block" id="problem">
+            <p class="kicker">The problem</p>
+            <h2>The more alarms there are, the less you see the most serious one</h2>
+            <figure class="figure">
+              <div class="pair-labels" aria-hidden="true"><span>1 alarm</span><span><b>5 alarms</b></span></div>
+              <div class="figure__pair">
+                <img src="../assets/cases/alarm-heat-original-1.jpg" alt="With a single alarm, the hottest area of the screen is the red banner of the life-threatening alarm." width="1600" height="860" loading="lazy">
+                <img src="../assets/cases/alarm-heat-original-5.jpg" alt="With five alarms, the hottest areas are the four other banners; the life-threatening alarm barely registers." width="1600" height="860" loading="lazy">
+              </div>
+              <figcaption>Where the eye lands, from blue (little) to red (a lot), according to a visual attention model. The life-threatening alarm is the same on both screens.</figcaption>
+            </figure>
+            <p><strong>With a single alarm, all is well.</strong> The life-threatening alarm is the most visible.</p>
+            <p><strong>With four more alarms, it loses 41% of its visibility.</strong> It has not changed, yet it becomes less visible than the other four.</p>
+            <p class="lede-box">In practice: when several alarms trigger at once, the interface does not steer attention to the most urgent one. On the contrary, the screen draws the eye first to a secondary, non-urgent alarm, and only then to the life-threatening one. In real conditions, this can lead to a life-threatening emergency being overlooked or treated late.</p>
+          </section>
+
+          <section class="prose-block" id="cause">
+            <p class="kicker">The cause</p>
+            <h2>Three design choices behind the problem</h2>
+            <ol class="tiles tiles--num">
+              <li><strong>Red is the darkest colour</strong>On a dark background, yellow and cyan stand out more. The colour that means “most serious” is the one that stands out least.</li>
+              <li><strong>All alarms share the same format</strong>Same size, same position, same typography. Severity is coded by colour alone.</li>
+              <li><strong>The screen does not adapt</strong>One alarm or five, the display is the same. Nothing does the sorting for the clinician.</li>
+            </ol>
+            <p>Research on visual perception explains the result: a unique item is spotted at a glance, but as soon as several look alike, they have to be checked one by one <a class="cite" href="#ref-2">[2]</a>.</p>
+          </section>
+
+          <section class="prose-block" id="method">
+            <p class="kicker">Our method</p>
+            <h2>An audit grounded in standards and a visual attention model</h2>
+            <ol class="steps">
+              <li><strong>Frame</strong>Four conditions, with a growing number of alarms on screen.</li>
+              <li><strong>Measure</strong>44 ergonomic criteria, and the visibility of each alarm quantified by a model.</li>
+              <li><strong>Analyse</strong>Result cross-checked with two other models.</li>
+              <li><strong>Recommend</strong>Recommendations, interface redesign, then a before/after comparison with the same measure.</li>
+            </ol>
+            <p>The interface was assessed against established ergonomic criteria <a class="cite" href="#ref-3">[3,&nbsp;4]</a> and checked against two international standards: <strong>IEC 62366-1</strong>, which governs the usability engineering of medical devices, and <strong>IEC 60073</strong>, which sets the coding rules for colours and signals <a class="cite" href="#ref-5">[5,&nbsp;6]</a>.</p>
+            <p>The visibility of each alarm is estimated by <strong>our visual attention model</strong>. It combines two published methods: the spectral residual, which picks up what stands out by its structure (a sharp edge, an isolated shape) <a class="cite" href="#ref-7">[7]</a>, and global colour contrast, which picks up what stands out by its colour <a class="cite" href="#ref-8">[8]</a>. Colour weighs 60% in the model, because it is the first signal of an alarm. The computation is deterministic: the same image always gives the same values. The method is fast, inexpensive and applicable from the mock-up stage, before any user testing.</p>
+          </section>
+
+          <section class="prose-block" id="solution">
+            <p class="kicker">The solution</p>
+            <h2>Making urgency more visible</h2>
+            <p>Three changes to the interface. The elements and their layout on screen stay the same.</p>
+            <ol class="tiles tiles--num">
+              <li><strong>Solid colour for life-threatening danger only</strong>Less serious alarms become simple outlines. What shines most is what matters most.</li>
+              <li><strong>One shape and one size per severity level</strong>A pictogram and a format specific to each level, readable even without colour.</li>
+              <li><strong>A screen that does the sorting</strong>As soon as several alarms are active, a count appears and stable patients recede.</li>
+            </ol>
+
+            <p class="compare__status" data-compare-status data-before="Before: original interface" data-after="After: our redesign" data-both="Before on the left · After on the right" aria-live="polite">Before on the left · After on the right</p>
+            <div class="compare" data-compare>
+              <img src="../assets/cases/alarm-original-5.png" alt="Before: five alarm banners in the same format, red, yellow and cyan." width="1600" height="860" loading="lazy">
+              <img class="compare__after" src="../assets/cases/alarm-v2-5.png" alt="After the redesign: only the life-threatening alarm keeps a solid red fill, wider, with a pictogram; the other alarms are outlined and stable patients are dimmed." width="1600" height="860" loading="lazy">
+              <span class="compare__line" aria-hidden="true"></span>
+              <span class="compare__tag compare__tag--before" aria-hidden="true">Before</span>
+              <span class="compare__tag compare__tag--after" aria-hidden="true">After</span>
+              <input type="range" min="0" max="100" value="50" aria-label="Compare the screen before and after">
+            </div>
+            <div class="compare-switch" role="group" aria-label="View">
+              <button type="button" aria-pressed="true" data-view="ui">The screen</button>
+              <button type="button" aria-pressed="false" data-view="heat">Where the eye lands</button>
+            </div>
+            <p class="table-note">Drag the slider. Same patients, same alarms, same situation.</p>
+          </section>
+
+          <section class="prose-block" id="result">
+            <p class="kicker">The result</p>
+            <h2>With our redesign, the life-threatening alarm goes from least visible to most visible</h2>
+            <div class="bars">
+              <p class="bars__title">Visibility of each alarm, with five alarms on screen</p>
+              <p class="bars__sub">Relative to the screen average. The longer the bar, the more the alarm draws the eye.</p>
+              <div class="bars__cols">
+                <div class="bars__col"><h3>Before</h3>
+                  <div class="bar bar--red"><span>Life-threatening</span><span class="bar__track"><i class="bar__fill" style="--v:4.8"></i></span><span class="bar__val">×4.8</span></div>
+                  <div class="bar bar--yellow"><span>Medium severity</span><span class="bar__track"><i class="bar__fill" style="--v:10.6"></i></span><span class="bar__val">×10.6</span></div>
+                  <div class="bar bar--yellow"><span>Medium severity</span><span class="bar__track"><i class="bar__fill" style="--v:10.3"></i></span><span class="bar__val">×10.3</span></div>
+                  <div class="bar bar--cyan"><span>Technical alert</span><span class="bar__track"><i class="bar__fill" style="--v:8.8"></i></span><span class="bar__val">×8.8</span></div>
+                  <div class="bar bar--cyan"><span>Technical alert</span><span class="bar__track"><i class="bar__fill" style="--v:8.5"></i></span><span class="bar__val">×8.5</span></div>
+                </div>
+                <div class="bars__col"><h3>After</h3>
+                  <div class="bar bar--red"><span>Life-threatening</span><span class="bar__track"><i class="bar__fill" style="--v:10.5"></i></span><span class="bar__val">×10.5</span></div>
+                  <div class="bar bar--yellow"><span>Medium severity</span><span class="bar__track"><i class="bar__fill" style="--v:3.7"></i></span><span class="bar__val">×3.7</span></div>
+                  <div class="bar bar--yellow"><span>Medium severity</span><span class="bar__track"><i class="bar__fill" style="--v:2.3"></i></span><span class="bar__val">×2.3</span></div>
+                  <div class="bar bar--cyan"><span>Technical alert</span><span class="bar__track"><i class="bar__fill" style="--v:1.0"></i></span><span class="bar__val">×1.0</span></div>
+                  <div class="bar bar--cyan"><span>Technical alert</span><span class="bar__track"><i class="bar__fill" style="--v:0.7"></i></span><span class="bar__val">×0.7</span></div>
+                </div>
+              </div>
+            </div>
+            <ul class="prose-list">
+              <li><strong>It is 2.2 times more visible</strong> than on the original screen, in the same situation.</li>
+              <li><strong>It no longer drops when other alarms appear.</strong> The 41% loss is gone.</li>
+              <li><strong>Visibility now follows severity</strong>: life-threatening first, then medium severity, then technical alerts.</li>
+            </ul>
+            <p>No information was removed from the screen; only the way alarms are displayed has changed.</p>
+          </section>
+
+          <section class="prose-block" id="for-your-product">
+            <p class="kicker">For your product</p>
+            <h2>What this study means for you</h2>
+            <ul class="prose-list">
+              <li><strong>A critical interface should be tested in its most degraded scenarios.</strong> With a single alarm, the life-threatening alarm is indeed the most visible. The flaw only appears when several alarms arrive at once, which is when the risk is highest.</li>
+              <li><strong>A colour code is not enough to show what is serious.</strong> Brightness, size, shape and context matter just as much.</li>
+              <li><strong>This kind of flaw can be caught early,</strong> before any user testing, without mobilising clinicians or equipment.</li>
+              <li><strong>For a medical device, this audit fits into formative evaluation</strong> and feeds the usability engineering file.</li>
+            </ul>
+            <p>The principle goes beyond healthcare: control rooms, cockpits, dashboards, applications and software. Wherever a priority signal has to stand out from a busy interface, the method can apply.</p>
+          </section>
+
+          <section class="prose-block" id="next-steps">
+            <p class="kicker">Next steps</p>
+            <h2>From prediction to measurement</h2>
+            <p>This study predicts where the eye lands using a computational model of visual attention. It does not replace a study with participants: the next step is to verify these results with an experimental protocol, in the field.</p>
+            <ul class="tiles">
+              <li><strong>Eye tracking</strong>Measuring the clinician’s gaze (fixations, saccades) across the different versions of the interface.</li>
+              <li><strong>Psychophysiology</strong>Mental workload, stress and the operator’s physiological response to the interface.</li>
+              <li><strong>UX research</strong>Task analysis, cognitive walkthroughs and interviews with clinicians.</li>
+            </ul>
+            <p class="report-note">Full report available <a href="../en/index.html#contact">on request</a></p>
+            <p class="deliv"><strong>Deliverables of this type of audit:</strong> <span>audit report</span><span>44-criteria grid</span><span>before/after visibility maps</span><span>redesign mock-ups</span><span>reproducible measurements</span><span>protocol for the next step</span></p>
+          </section>
+        </div>
+
+          <!-- Wide screens only: key figures and table of contents, sticky while reading (css: .case-aside, js: [data-toc]) -->
+          <aside class="case-aside" aria-label="The study at a glance">
+            <div class="case-aside__inner">
+              <p class="case-aside__label">The study in three figures</p>
+              <dl class="case-aside__figs">
+                <div><dt>−41%</dt><dd>visibility lost by the life-threatening alarm as soon as five alarms are displayed</dd></div>
+                <div><dt>×2.2</dt><dd>more visible after our redesign, without removing any information from the screen</dd></div>
+                <div><dt>44</dt><dd>ergonomic criteria assessed, and two standards: IEC&nbsp;62366-1, IEC&nbsp;60073</dd></div>
+              </dl>
+              <p class="case-aside__label">Contents</p>
+              <nav aria-label="Study contents">
+                <ol class="case-toc" data-toc>
+                  <li><a href="#context">Context</a></li>
+                  <li><a href="#problem">The problem</a></li>
+                  <li><a href="#cause">The cause</a></li>
+                  <li><a href="#method">Our method</a></li>
+                  <li><a href="#solution">The solution</a></li>
+                  <li><a href="#result">The result</a></li>
+                  <li><a href="#for-your-product">For your product</a></li>
+                  <li><a href="#next-steps">Next steps</a></li>
+                </ol>
+              </nav>
+              <a class="btn btn--primary btn--sm" href="../en/index.html#contact">Tell us about your project</a>
+            </div>
+          </aside>
+      </div>
+    </article>
+
+    <section class="section cta-band">
+      <div class="container cta-band__inner">
+        <h2 class="h-section">We test your interface when everything happens at once.</h2>
+        <a class="btn btn--primary" href="../en/index.html#contact">Tell us about your project</a>
+      </div>
+    </section>
+
+    <section class="section section--alt section--refs">
+      <div class="container">
+        <div class="prose prose--case">
+          <section class="prose-block refs">
+            <h2>References</h2>
+            <ol class="refs__num">
+              <li id="ref-1">Cvach, M. (2012). Monitor alarm fatigue: an integrative review. <em>Biomedical Instrumentation &amp; Technology</em>, 46(4), 268–277. <a href="https://doi.org/10.2345/0899-8205-46.4.268" rel="noopener">doi:10.2345/0899-8205-46.4.268</a></li>
+              <li id="ref-2">Treisman, A. M. &amp; Gelade, G. (1980). A feature-integration theory of attention. <em>Cognitive Psychology</em>, 12(1), 97–136. <a href="https://doi.org/10.1016/0010-0285(80)90005-5" rel="noopener">doi:10.1016/0010-0285(80)90005-5</a></li>
+              <li id="ref-3">Bastien, J. M. C. &amp; Scapin, D. L. (1993). <em>Ergonomic criteria for the evaluation of human-computer interfaces.</em> INRIA Technical Report no.&nbsp;156. <a href="https://inria.hal.science/inria-00070012v1" rel="noopener">inria-00070012</a></li>
+              <li id="ref-4">Nielsen, J. (1994). Heuristic evaluation. In J. Nielsen &amp; R. L. Mack (Eds.), <em>Usability Inspection Methods.</em> Wiley.</li>
+              <li id="ref-5">IEC 62366-1:2015. <em>Medical devices – Part 1: Application of usability engineering to medical devices.</em></li>
+              <li id="ref-6">IEC 60073:2002. <em>Basic and safety principles for man-machine interface, marking and identification – Coding principles for indicators and actuators.</em> <a href="https://webstore.iec.ch/publication/587" rel="noopener">webstore.iec.ch</a></li>
+              <li id="ref-7">Hou, X. &amp; Zhang, L. (2007). Saliency detection: a spectral residual approach. <em>IEEE CVPR.</em> <a href="https://doi.org/10.1109/CVPR.2007.383267" rel="noopener">doi:10.1109/CVPR.2007.383267</a></li>
+              <li id="ref-8">Cheng, M.-M., Mitra, N. J., Huang, X., Torr, P. H. S. &amp; Hu, S.-M. (2015). Global contrast based salient region detection. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 37(3), 569–582. <a href="https://doi.org/10.1109/TPAMI.2014.2345401" rel="noopener">doi:10.1109/TPAMI.2014.2345401</a></li>
+              <li id="ref-9">Montabone, S. &amp; Soto, A. (2010). Human detection using a mobile platform and novel features derived from a visual saliency mechanism. <em>Image and Vision Computing</em>, 28(3), 391–402. <a href="https://doi.org/10.1016/j.imavis.2009.06.006" rel="noopener">doi:10.1016/j.imavis.2009.06.006</a></li>
+            </ol>
+            <p class="fineprint">Study conducted by Nox Science. The device manufacturer is not named; it neither commissioned nor endorsed this analysis. The screens shown are anonymised reconstructions made by Nox Science; the patients and values displayed are fictitious. The redesign is a study mock-up and does not constitute clinical guidance.</p>
+            <p class="fineprint">Notes on method. The screens are reconstructions faithful to the structure and coding of the product. The result was cross-checked with two published models, which do not take colour into account <a class="cite" href="#ref-7">[7,&nbsp;9]</a>: all of them rank the life-threatening alarm last on the original screen, and all of them confirm that the loss disappears after the redesign. Only our model places it first; confirming that requires an eye-tracking measurement. The full computation is described in the report (in French), available <a href="../en/index.html#contact">on request</a>.</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="logo" href="../en/index.html" aria-label="Nox Science — home">
+            <img class="logo__img" src="../assets/logo-nox.png" alt="" width="870" height="340" loading="lazy">
+            <span class="logo__lab" aria-hidden="true">Science</span>
+          </a>
+          <p>Human factors consultancy<br>Paris · <a href="mailto:contact@noxscience.com">contact@noxscience.com</a></p>
+    <div class="social" role="group" aria-label="Social media">
+            <a href="https://www.linkedin.com/company/nox-science/" rel="noopener" target="_blank" aria-label="Nox Science on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            <a href="https://www.instagram.com/noxscience/" rel="noopener" target="_blank" aria-label="Nox Science on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2"/></svg></a>
+          </div>
+        </div>
+        <nav class="site-footer__col" aria-label="Nox Science">
+          <p class="site-footer__title">Nox Science</p>
+          <a href="../offers.html">Our offers</a>
+          <a href="../en/index.html#how">Our approach</a>
+          <a href="../en/index.html#team">Team</a>
+          <a href="../en/index.html#contact">Contact</a>
+        </nav>
+        <nav class="site-footer__col" aria-label="Case studies">
+          <p class="site-footer__title">Case studies</p>
+          <a href="icu-alarms.html">Alarms in intensive care</a>
+          <a href="driver-fatigue.html">Driver fatigue</a>
+          <a href="vr-emotions.html">Emotions in virtual reality</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Nox Science</p>
+        <nav aria-label="Legal links">
+          <a href="../legal-notice.html">Legal notice</a>
+          <a href="../privacy.html">Privacy policy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+
+  <script>
+  document.querySelectorAll('[data-reveal]').forEach(function (fig) {
+    var btn = fig.querySelector('[data-reveal-btn]');
+    btn.addEventListener('click', function () {
+      var on = fig.classList.toggle('is-on');
+      btn.textContent = on ? btn.dataset.on : btn.dataset.off;
+    });
+  });
+  document.querySelectorAll('[data-compare]').forEach(function (box) {
+    var range = box.querySelector('input[type=range]');
+    var status = box.previousElementSibling && box.previousElementSibling.hasAttribute('data-compare-status') ? box.previousElementSibling : null;
+    var set = function () {
+      box.style.setProperty('--pos', range.value + '%');
+      if (status) status.textContent = range.value >= 92 ? status.dataset.before : range.value <= 8 ? status.dataset.after : status.dataset.both;
+    };
+    range.addEventListener('input', set); set();
+    var imgs = box.querySelectorAll('img');
+    var sw = box.nextElementSibling;
+    if (!sw) return;
+    sw.querySelectorAll('button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var heat = b.dataset.view === 'heat';
+        imgs[0].src = imgs[0].src.replace(/alarm-(heat-)?original-5\.(png|jpg)/, heat ? 'alarm-heat-original-5.jpg' : 'alarm-original-5.png');
+        imgs[1].src = imgs[1].src.replace(/alarm-(heat-)?v2-5\.(png|jpg)/, heat ? 'alarm-heat-v2-5.jpg' : 'alarm-v2-5.png');
+        sw.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      });
+    });
+  });
+  </script>
+</body>
+</html>

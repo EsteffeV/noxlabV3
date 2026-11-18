@@ -1,0 +1,3 @@
+# French is the default language: the site root goes to the French home page.
+# 302 (temporary) on purpose, so the rule can change later without browsers caching it.
+/ /fr/ 302

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nox Science · Human factors consultancy, Paris</title>
+  <meta name="description" content="Human factors consultancy in Paris. Audits of interfaces and medical devices (IEC 62366-1), studies with participants, data analysis.">
+
+  <meta property="og:title" content="We measure how your users perceive, decide and react · Nox Science">
+  <meta property="og:description" content="Human factors consultancy in Paris. Audits of interfaces and medical devices (IEC 62366-1), studies with participants, data analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://www.noxscience.com/en/">
+  <meta property="og:site_name" content="Nox Science">
+  <meta property="og:image" content="https://www.noxscience.com/assets/og/home-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nox Science, human factors consultancy: we measure how your users perceive, decide and react.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.noxscience.com/en/">
+
+  <link rel="icon" href="../assets/favicon-nox.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="fr" href="../fr/index.html">
+  <link rel="alternate" hreflang="x-default" href="../fr/index.html">
+
+  <!-- French is the default (site root redirects to /fr/). A visitor who picked FR before is sent back to the French page. -->
+  <script>
+    try { if (localStorage.getItem('nox-lang') === 'fr') location.replace('../fr/index.html'); } catch (e) {}
+  </script>
+
+  <link rel="preload" href="../assets/fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="#top" aria-label="Nox Science — home">
+        <img class="logo__img" src="../assets/logo-nox.png" alt="" width="870" height="340">
+        <span class="logo__lab" aria-hidden="true">Science</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path class="nav-toggle__bars" d="M3 6h14M3 14h14"/><path class="nav-toggle__close" d="M4.5 4.5l11 11M15.5 4.5l-11 11"/></svg>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="#solutions">Offers</a>
+          <a href="#how">Our approach</a>
+          <a href="#cases">Case studies</a>
+          <a href="#team">Team</a>
+        </div>
+        <a class="lang-switch" href="../fr/index.html" hreflang="fr" lang="fr" aria-label="Voir le site en français">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+          <span>FR</span>
+        </a>
+        <a class="btn btn--primary btn--sm" href="#contact">Tell us about your project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <span id="top"></span>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero__grid hero__grid--shot">
+        <div class="hero__text">
+          <p class="eyebrow">Human factors consultancy</p>
+          <h1 class="h-display">We measure how your users <span class="hero__verbs"><span class="mark">perceive, decide and react</span>,</span><span class="word-rotator" aria-hidden="true"><span class="word-rotator__word"><span class="mark">perceive</span>,</span><span class="word-rotator__word"><span class="mark">decide</span>,</span><span class="word-rotator__word"><span class="mark">react</span>,</span></span><br>and we turn the results into design decisions.</h1>
+          <p class="hero__lede">For teams that design products, interfaces and experiences. From question to protocol, from measurement to recommendation.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Tell us about your project</a>
+            <a class="btn" href="#cases">See our case studies</a>
+          </div>
+        </div>
+
+        <!-- Hero screen: our redesign of the monitoring screen from the ICU alarms study.
+             It opens on the original screen, then sweeps once to the redesign (css/style.css, js/main.js). -->
+        <figure class="shot" data-sweep>
+          <a class="shot__screen" href="../cases/icu-alarms.html" tabindex="-1" aria-hidden="true">
+            <span class="shot__stage">
+              <img src="../assets/cases/alarm-original-5.webp" alt="" width="1600" height="860" decoding="async">
+              <img class="shot__after" src="../assets/cases/alarm-v2-5.webp" alt="" width="1600" height="860" decoding="async">
+              <span class="shot__line"></span>
+              <span class="shot__tag shot__tag--before">Before</span>
+              <span class="shot__tag shot__tag--after">After our redesign</span>
+            </span>
+          </a>
+          <figcaption class="shot__cap">
+            <span class="shot__kicker">Case study · Interface ergonomics</span>
+            <span class="shot__text"><span class="shot__problem">On one interface, when several alarms went off, the most urgent one became the least visible.</span> We quantified the visibility of each alarm, then improved the interface: the urgent alarm becomes <strong>2.2 times more visible</strong>.</span>
+            <a class="link-arrow" href="../cases/icu-alarms.html">Read the study</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Scrolling band: what we measure and the standards we apply (as on the first version of the site). Pauses on hover; static if the visitor asked for reduced motion. Later: client logos. ===== -->
+    <section class="marquee" aria-label="Measures and standards">
+      <div class="container marquee__inner">
+        <p class="marquee__label">Measures and standards</p>
+        <div class="marquee__view">
+          <ul class="marquee__track"><li class="marquee__item">Eye tracking</li><li class="marquee__item">EEG</li><li class="marquee__item">fNIRS</li><li class="marquee__item">Cardiac signals</li><li class="marquee__item">Electrodermal signals</li><li class="marquee__item">Motion capture</li><li class="marquee__item">Virtual reality</li><li class="marquee__item">Questionnaires</li><li class="marquee__item">IEC 62366-1</li><li class="marquee__item">IEC 60073</li><li class="marquee__item">AI Act</li><li class="marquee__item" aria-hidden="true">Eye tracking</li><li class="marquee__item" aria-hidden="true">EEG</li><li class="marquee__item" aria-hidden="true">fNIRS</li><li class="marquee__item" aria-hidden="true">Cardiac signals</li><li class="marquee__item" aria-hidden="true">Electrodermal signals</li><li class="marquee__item" aria-hidden="true">Motion capture</li><li class="marquee__item" aria-hidden="true">Virtual reality</li><li class="marquee__item" aria-hidden="true">Questionnaires</li><li class="marquee__item" aria-hidden="true">IEC 62366-1</li><li class="marquee__item" aria-hidden="true">IEC 60073</li><li class="marquee__item" aria-hidden="true">AI Act</li></ul>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Offers (id kept as "solutions" so existing links still work) ===== -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our offers</p>
+          <h2 class="h-section">From interface audit to neuroscience study.</h2>
+        </div>
+        <div class="offers offers--short">
+          <article class="card offer-card offer-card--short">
+            <div class="offer-card__head"><span class="offer-card__icon"><svg viewBox="0 0 40 40" fill="none" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="6.5" width="32" height="21.5" rx="2.5"/><path d="M14 33.5h12M20 28v5.5"/><circle cx="20" cy="17.2" r="4.4"/><path d="M20 10.2v2.4M20 21.8v2.4M13 17.2h2.4M24.6 17.2H27"/></svg></span><p class="offer-card__num">01</p></div>
+            <h3 class="offer-card__title">Human factors audit of an interface</h3>
+            <p class="offer-card__text">We find what gets lost on your screen and quantify the visibility of every critical element.</p>
+            <p class="offer-card__meta"><span class="offer-pill">1 to 2 weeks</span><a class="link-arrow" href="../offers.html#audit">Details</a></p>
+          </article>
+          <article class="card offer-card offer-card--short">
+            <div class="offer-card__head"><span class="offer-card__icon"><svg viewBox="0 0 40 40" fill="none" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4.5h16l7 7v24H9z"/><path d="M25 4.5v7h7"/><path d="M14 18h13M14 23h13M14 28h8"/></svg></span><p class="offer-card__num">02</p></div>
+            <h3 class="offer-card__title">Scientific review and recommendations</h3>
+            <p class="offer-card__text">We establish what research shows, and what it does not, to support your decision.</p>
+            <p class="offer-card__meta"><span class="offer-pill">1 to 2 weeks</span><a class="link-arrow" href="../offers.html#review">Details</a></p>
+          </article>
+          <article class="card offer-card offer-card--short">
+            <div class="offer-card__head"><span class="offer-card__icon"><svg viewBox="0 0 40 40" fill="none" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="13" r="4.6"/><path d="M5 32c0-5.2 4-8.8 9-8.8s9 3.6 9 8.8"/><circle cx="28" cy="14.5" r="3.7"/><path d="M25.2 23.6a8 8 0 0 1 2.8-.5c4.1 0 7.4 3.2 7.4 7.9"/></svg></span><p class="offer-card__num">03</p></div>
+            <h3 class="offer-card__title">Study with participants</h3>
+            <p class="offer-card__text">We test your product with participants, in its conditions of use: physiological and behavioural measures, and questionnaires.</p>
+            <p class="offer-card__meta"><span class="offer-pill">On quotation</span><a class="link-arrow" href="../offers.html#study">Details</a></p>
+          </article>
+          <article class="card offer-card offer-card--short">
+            <div class="offer-card__head"><span class="offer-card__icon"><svg viewBox="0 0 40 40" fill="none" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 34.5h30M5 5.5v29"/><path d="M9 28l7-8.5 6 4.5 8.5-12 4.5 3.2"/><circle cx="16" cy="19.5" r="1.7"/><circle cx="22" cy="24" r="1.7"/><circle cx="30.5" cy="12" r="1.7"/></svg></span><p class="offer-card__num">04</p></div>
+            <h3 class="offer-card__title">Analysis of existing data</h3>
+            <p class="offer-card__text">We turn your data into quantified results, with their limits, ready to present.</p>
+            <p class="offer-card__meta"><span class="offer-pill">1 to 3 weeks</span><a class="link-arrow" href="../offers.html#data">Details</a></p>
+          </article>
+        </div>
+        <p class="offers__note">All our offers are quoted. The starting point is a 30-minute call, then a scoping note.</p>
+      </div>
+    </section>
+
+    <!-- ===== Our approach ===== -->
+    <section class="section section--alt" id="how">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our approach</p>
+          <h2 class="h-section">From your question to recommendations.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <div class="step__top"><span class="step__icon"><svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="11" stroke="#d6f46a" stroke-width="2.4" fill="none" stroke-dasharray="4 3.5"/><path d="M20 3v7M20 30v7M3 20h7M30 20h7" stroke="#d6f46a" stroke-width="2.4" stroke-linecap="round"/><circle cx="20" cy="20" r="3.6" fill="#d6f46a"/></svg></span><span class="step__num">01</span></div>
+            <h3 class="step__title">Frame</h3>
+            <p class="step__text">We turn your question into a protocol, in a scoping note delivered within 2 days.</p>
+          </li>
+          <li class="step">
+            <div class="step__top"><span class="step__icon"><svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="3.5" y="7" width="33" height="26" rx="2.5" stroke="#d6f46a" stroke-width="2.2"/><path d="M7 22h6l2.5-7 4 13 3.5-16 3 12 2-4h5" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="step__num">02</span></div>
+            <h3 class="step__title">Measure</h3>
+            <p class="step__text">Interface audit, or data collection in the lab, on a simulator or in the field.</p>
+          </li>
+          <li class="step">
+            <div class="step__top"><span class="step__icon"><svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="17" cy="17" r="10" fill="none" stroke="#d6f46a" stroke-width="2.6"/><path d="M24.5 24.5L35 35" stroke="#d6f46a" stroke-width="4.5" stroke-linecap="round"/><path d="M2 17h7l2-2.5 2.5 6 2.5-9 2.5 8 2-5 2 2.5h4M30 17h7" fill="none" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="step__num">03</span></div>
+            <h3 class="step__title">Analyse</h3>
+            <p class="step__text">Signal processing and statistics: every result quantified, with its limits.</p>
+          </li>
+          <li class="step">
+            <div class="step__top"><span class="step__icon"><svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v23M15.5 27h9M7 7h26" stroke="#d6f46a" stroke-width="2.2" stroke-linecap="round"/><circle cx="20" cy="5" r="2.2" fill="#d6f46a"/><path d="M9 7l-4.2 7.5M9 7l4.2 7.5M31 7l-4.2 7.5M31 7l4.2 7.5" stroke="#d6f46a" stroke-width="1.3" stroke-linecap="round"/><path d="M4.3 14.5a4.7 3 0 0 0 9.4 0z M26.3 14.5a4.7 3 0 0 0 9.4 0z" fill="none" stroke="#d6f46a" stroke-width="2" stroke-linejoin="round"/><g transform="translate(19 36.5) scale(.8) translate(-19 -39.5)"><rect x="1.5" y="31" width="4.6" height="8.5" rx=".8" fill="#d6f46a"/><path d="M7 31.8h9.2c2.1 0 3.3-1.1 5.6-1.1h8.4c1.7 0 1.7 2.8 0 2.8h-6.4l9.9-2.7c1.7-.5 2.5 1.9.9 2.7L21.5 39.5H7z" fill="#d6f46a"/><path d="M21 33.5h3" stroke="#111613" stroke-width="1" stroke-linecap="round"/></g></svg></span><span class="step__num">04</span></div>
+            <h3 class="step__title">Recommend</h3>
+            <p class="step__text">A report and prioritised recommendations, presented to your teams.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Case studies ===== -->
+    <section class="section" id="cases">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Case studies</p>
+          <h2 class="h-section">A few examples of our work.</h2>
+        </div>
+
+        <!-- To add a case: copy one <article class="card case case--fig">…</article> block.
+             Three cards: use case-grid--3 (two columns, then one, on smaller screens). -->
+        <!-- Case cards (18/11): same-size images, title and problem · method · result in one paragraph; rows aligned across cards (css: subgrid) -->
+        <div class="case-grid case-grid--3">
+          <article class="card case case--fig">
+            <a class="case__fig" href="../cases/icu-alarms.html" tabindex="-1" aria-hidden="true"><img src="../assets/cases/alarm-heat-original-5.jpg" alt="" width="1600" height="860" loading="lazy"></a>
+            <p class="case__kicker">Interface ergonomics · November 2026</p>
+            <h3 class="case__title">Assessing alarm visibility on a medical interface</h3>
+            <p class="case__text">Our ergonomic audit and a visual attention model reveal that with several alarms, the most urgent one became the least visible, which increased the risk of error. Our improvement makes it 2.2 times more visible.</p>
+            <p class="case__foot"><a class="link-arrow" href="../cases/icu-alarms.html">Read the case study</a></p>
+          </article>
+          <article class="card case case--fig">
+            <a class="case__fig" href="../cases/driver-fatigue.html" tabindex="-1" aria-hidden="true"><img src="../assets/cases/card-fatigue.jpg" alt="" width="1200" height="800" loading="lazy"></a>
+            <p class="case__kicker">Data analysis · October 2026</p>
+            <h3 class="case__title">Measuring driver fatigue</h3>
+            <p class="case__text">Measuring and predicting fatigue at the wheel could prevent 10 to 24% of crashes. To choose a reliable sensor, we compared several multimodal signals with a reference: a sleep physician’s rating based on electroencephalography (EEG).</p>
+            <p class="case__foot"><a class="link-arrow" href="../cases/driver-fatigue.html">Read the case study</a></p>
+          </article>
+          <article class="card case case--fig">
+            <a class="case__fig" href="../cases/vr-emotions.html" tabindex="-1" aria-hidden="true"><img src="../assets/cases/card-vr-forest.jpg" alt="" width="750" height="1000" loading="lazy"></a>
+            <p class="case__kicker">Emotion measurement · October 2026</p>
+            <h3 class="case__title">Assessing the emotional impact of an environment</h3>
+            <p class="case__text">Does a virtual reality scene designed to produce joy actually produce that emotion? With emotion questionnaires, psychophysiological and brain measures, we showed that it did not.</p>
+            <p class="case__foot"><a class="link-arrow" href="../cases/vr-emotions.html">Read the case study</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Team ===== -->
+    <section class="section section--alt" id="team">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Team</p>
+          <h2 class="h-section">Complementary specialties, proven in the lab and in the field.</h2>
+        </div>
+        <div class="team__grid">
+          <article class="member">
+            <div class="member__photo"><img src="../assets/zeynep.jpg" alt="Zeynep Yenigün" width="600" height="600"></div>
+            <div class="member__head">
+              <h3 class="member__name">Zeynep Yenigün</h3>
+              <a class="member__in" href="https://www.linkedin.com/in/zeynep-yenigun-1170001b0/" rel="noopener" aria-label="Zeynep Yenigün on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            </div>
+            <p class="member__role">Head of perception and attention</p>
+            <p class="member__bio">Trained in psychology at Université Lumière Lyon&nbsp;2, then in cognitive neuroscience at Maastricht University. As project manager of the SENSORIA chair at the University of Lille, she coordinated studies for industrial and academic partners, from protocol and ethics approval to the collection and analysis of EEG and fNIRS data. At Nox, she handles the measurement and analysis of brain signals and studies with participants, including in virtual reality.</p>
+            <ul class="chips"><li class="chip">EEG</li><li class="chip">fNIRS</li><li class="chip">Eye tracking</li><li class="chip">Virtual reality</li><li class="chip">Sensory perception</li><li class="chip">Consumer marketing</li></ul>
+          </article>
+          <article class="member">
+            <div class="member__photo"><img src="../assets/esteffe.jpg" alt="Esteffe Violet" width="600" height="600"></div>
+            <div class="member__head">
+              <h3 class="member__name">Esteffe Violet</h3>
+              <a class="member__in" href="https://www.linkedin.com/in/esteffe/" rel="noopener" aria-label="Esteffe Violet on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            </div>
+            <p class="member__role">Head of human factors and field studies</p>
+            <p class="member__bio">Trained in cognitive science at the University of Lille. At MEDES, he worked on a space mission simulation run with CNES, designing a study on crew stress, performance and cohesion. He then joined the SCALab laboratory to study the effect of multisensory environments on stress and mental workload, and taught at the University of Lille. At Nox, he leads human factors audits and studies on mental workload, stress and fatigue.</p>
+            <ul class="chips"><li class="chip">Human factors</li><li class="chip">Cognitive ergonomics</li><li class="chip">Affective science</li><li class="chip">IEC 62366-1</li><li class="chip">IEC 60073</li><li class="chip">Motion capture</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--glow" id="contact" data-sticky-end>
+      <div class="container contact__grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 class="h-section contact__title">Tell us about your project.</h2>
+          <p class="contact__text">Write to us: we will suggest a 30-minute call, then a scoping note. Your question, the state of research, what we propose, a quote. Reply within 2 days.</p>
+          <p class="contact__place">Based in Paris · remote or on site, in France and in Europe · English and French</p>
+        </div>
+
+        <form class="form" action="https://formspree.io/f/xnpjygvr" method="POST" id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field field--full">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field field--full">
+            <label for="need">What you need <span class="field__opt">(optional)</span></label>
+            <select id="need" name="need">
+              <option value="">Choose an offer</option>
+              <option>Human factors audit of an interface</option>
+              <option>Scientific review and recommendations</option>
+              <option>Study with participants</option>
+              <option>Analysis of existing data</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field field--full">
+            <label for="question">Your product and your question</label>
+            <textarea id="question" name="question" required></textarea>
+          </div>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit">Send</button>
+            <p class="form__status" role="status" aria-live="polite"
+               data-sending="Sending…"
+               data-ok="Thank you, your message has been sent."
+               data-error="Something went wrong. Please email us directly."></p>
+          </div>
+          <p class="form__note">Your information is only used to reply to you. More in our <a href="../privacy.html">privacy policy</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Phone only: pinned once the first block has scrolled away, hidden at the contact section (js/main.js) -->
+  <div class="sticky-cta" data-sticky-cta>
+    <a class="btn btn--primary" href="#contact">Tell us about your project</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="logo" href="#top" aria-label="Nox Science — home">
+            <img class="logo__img" src="../assets/logo-nox.png" alt="" width="870" height="340" loading="lazy">
+            <span class="logo__lab" aria-hidden="true">Science</span>
+          </a>
+          <p>Human factors consultancy<br>Paris · <a href="mailto:contact@noxscience.com">contact@noxscience.com</a></p>
+    <div class="social" role="group" aria-label="Our networks">
+            <a href="https://www.linkedin.com/company/nox-science/" rel="noopener" target="_blank" aria-label="Nox Science on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg></a>
+            <a href="https://www.instagram.com/noxscience/" rel="noopener" target="_blank" aria-label="Nox Science on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2"/></svg></a>
+          </div>
+        </div>
+        <nav class="site-footer__col" aria-label="Nox Science">
+          <p class="site-footer__title">Nox Science</p>
+          <a href="../offers.html">Our offers</a>
+          <a href="#how">Our approach</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <nav class="site-footer__col" aria-label="Case studies">
+          <p class="site-footer__title">Case studies</p>
+          <a href="../cases/icu-alarms.html">Alarms in intensive care</a>
+          <a href="../cases/driver-fatigue.html">Driver fatigue</a>
+          <a href="../cases/vr-emotions.html">Emotions in virtual reality</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Nox Science</p>
+        <nav aria-label="Legal links">
+          <a href="../legal-notice.html">Legal notice</a>
+          <a href="../privacy.html">Privacy policy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
